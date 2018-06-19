@@ -1,0 +1,113 @@
+/* General */
+html {
+  background-color: #6ab9ee;
+  color: white;
+}
+  
+
+body {
+  font-size: 14px;
+  width: 1000px; 
+  margin: 0 auto;
+  font-style: 'Nunito', sans-serif; 
+}
+  
+
+/* Typography */
+h1 {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  border: 5px solid white;
+  background-color: black; 
+}
+
+h2{
+  font-size: 18px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+button{
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+/* Form styling */
+
+aside{
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;  
+}
+
+  aside div {
+    margin-bottom: 20px;
+  }
+  
+  label, select, input {
+    display: block;
+  }
+
+    button {
+    background: blue;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 10px ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 2px rgb(32, 18, 231), inset -1px -1px 2px #ccc;
+  }
+
+/* block styling */
+header, aside, main, footer {
+  padding: 20px;
+}
+
+header {
+  border-bottom: 0; }
+
+aside {
+  border: 5px solid white; 
+}
+
+body > div {
+  display: flex; 
+}
+
+main {
+  flex: 7; 
+}
+
+/* Styling the map */
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#map {
+  height: 400px;  
+  width: 100%;  
+ }
+
+img{
+   height: 15px;
+   width: auto;
+ }
+
+/* Styling container div*/
+.container{
+  border: 5px solid white;
+  margin: 50px 0;
+  width: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
